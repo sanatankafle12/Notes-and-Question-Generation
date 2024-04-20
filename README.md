@@ -1,7 +1,11 @@
 The project was done as a part of final Year Project.<br>
 Type a paragraph of text to generate a Note and MCQ based on Extractive Summarization and T5 Transformers.<br>
-<h1>Demo</h1>
-<img src="https://github.com/sanatankafle12/major/assets/42962016/0179bfc7-71f8-4bae-9f62-06458a4f7186" height = 300px>
+<h1>Demo
+
+https://github.com/sanatankafle12/major/assets/42962016/69dbc507-dc38-47f9-967e-0110b404b6ae
+
+</h1>
+
 <br>
 <h1>Requirements</h1>
 <ul>
