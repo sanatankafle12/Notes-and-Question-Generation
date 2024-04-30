@@ -1,22 +1,22 @@
 The project was done as a part of final Year Project.<br>
 Type a paragraph of text to generate a Note and MCQ based on Extractive Summarization and T5 Transformers.<br>
-<h1>Demo
+## Demo
 
 https://github.com/sanatankafle12/major/assets/42962016/69dbc507-dc38-47f9-967e-0110b404b6ae
 
-</h1>
 
-<br>
-<h1>Requirements</h1>
-<ul>
-  <li>Django</li>
-  <li>Python</li>
-  <li>Nltk, Sense2vec </li>
-</ul>
-<h1>To Run on your machine</h1>
-<ul>
-  <li>Clone the repo.</li>
-  <li>train the model from train.py</li>
-  <li>Download all the dependencies</li>
-  <li>Run python manage.py runserver</li>
-</ul>
+
+
+## Requirements
+``` pip install -r requirements.txt```
+
+ ## Running Locally
+
+### Using Notebooks:
+1. [generator/train.ipynb](generator/train.ipynb) - trains the model save it locally. 
+2. [generator/graph.ipynb](generator/graph.ipynb) - Generates multiple choice questions using trained data. 
+
+### Run web version using Django
+1.  Run the 1st step shown in Using Notebook
+2.  ```python manage.py migrate```
+3.  ```python manage.py runserver```
